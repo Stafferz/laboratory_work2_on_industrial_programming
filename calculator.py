@@ -1,10 +1,14 @@
 from typing import Union
+import math
 
 def add(a, b):
     return a + b
 
 def subtract(a, b):
     return a - b
+
+def sqrt(a):
+    return math.sqrt(a)
 
 
 def multiply(a, b):
