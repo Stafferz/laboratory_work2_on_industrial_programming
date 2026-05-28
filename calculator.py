@@ -4,11 +4,14 @@ import math
 def add(a, b):
     return a + b
 
-def subtract(a, b):
-    return a - b
+def power(a, b):
+    return a ** b
 
 def sqrt(a):
     return math.sqrt(a)
+
+def subtract(a, b):
+    return a - b
 
 
 def multiply(a, b):
